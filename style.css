@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    font-family: Helvetica, 'Helvetica Neue';
+    font-style:normal;
+    padding: 0;
+}
+.tabBici{
+    color: #484848;
+    letter-spacing: 0.08em;
+  }
+  .bicicletta{
+    display: inline-table;
+    margin-top: 5%;
+  }
+  .connected{
+    display: inline-table;
+    margin-top: 5%;
+  }
+  @media (min-width: 700px) {
+  .bicicletta{
+    width: 22%;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+  }
+  .connected{
+    width: 46.5%;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+  }
+  #banner{
+    height: 300px;
+  }
+  .scritta{
+    top: 130px;
+  }
+  #DtitR{
+    margin-left: 3rem;
+  }
+  .email{
+    width: 60%;
+  }
+  .eButton{
+    width: 30%;
+  }
+  }
+  @media (max-width: 700px) {
+  .bicicletta{
+    width: 40%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+  }
+  .connected{
+    width: 89%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+  }
+  #banner{
+    height: 180px;
+  }
+  .scritta{
+    top: 50px;
+  }
+  .email{
+    width: 89%;
+  }
+  .eButton{
+    width: 100%;
+  }
+  }
+  #bici > .bicicletta:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+  @media (min-width: 1232px) {
+  .tabBici{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+  .nomeSito{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .ricerca{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+  .divValuta{
+    margin-left: 12.5%;
+  }
+  .copyright{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    width: 75%;
+  }
+  }
+  @media (max-width: 1232px) {
+  .tabBici{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .nomeSito{
+    padding: 0;
+  }
+  .ricerca{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .divValuta{
+    margin-left: 5%;
+  }
+  .copyright{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  }
+  .immagini{
+    width: 100%;
+  }
+  .nome{
+        border-bottom: 1px solid transparent;
+      display: inline;
+      font-family: Helvetica, 'Helvetica Neue';
+      font-style: normal;
+      font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .prezzo{
+        display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 1%;
+      margin-bottom: 0;
+      cursor: pointer;
+      font-weight: 700;
+    font-size: 14px;
+  }
+  .icone{
+    height: 25px;
+  }
+  #banner{
+    background-color: #000;
+    background-image: url("https://cdn.shopify.com/s/files/1/0509/6095/7594/collections/Zacks_by_the_Beach_Electric_Bicycle_Rentals_Ladies_White_1c29243e-688f-4278-a88c-1c6e916ef8d5_1296x.jpg?v=1660598054");
+    background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.8;
+    position: relative;
+  }
+  .nomeSito{
+    color: inherit;
+      text-decoration: none;
+      font-weight: 550;
+    text-transform: uppercase;
+        letter-spacing: .1em;
+    font-size: 1.3em;
+    width: 25%;
+    color: #484848;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .barra{
+    display: flex;
+  }
+  .scritta{
+    position: absolute;
+    color: #fff;
+    width: 86%;
+    text-align: center;
+    margin: 0;
+    font-family: Helvetica, 'Helvetica Neue';
+    font-style: normal;
+    font-size: 2.3em;
+    line-height: 40px;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .menu{
+    padding: 3px 10px;
+    font-size: 0.9em;
+    font-family: Helvetica, 'Helvetica Neue';
+    font-style:normal;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .freccia{
+    padding-left: 5px;
+  }
+  .test{
+    position: relative;
+    padding: 0;
+    text-align: center;
+    margin: 25px 0;
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+  }
+  li{
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    border: none;
+    background-color: transparent;
+    padding: 0 15px;
+  }
+  .test > li:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+  .spaziatore{
+    padding: 0 55px;
+    width: 100%;
+    display: flex;
+  }
+  .LPB{
+    vertical-align: middle;
+    display: flex;
+    width: 25%;
+  }
+  .all{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  #selezionato{
+    text-decoration: underline;
+  }
+  .ricerca{
+    display: flex;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid#ebebeb;
+    margin-top: 22px;
+  }
+  .testoRicerca{
+    padding-left: 0;
+    width: 49%;
+  }
+  .titoloR{
+    color: #3a3a3a;
+    font-size: 0.8em;
+  }
+  #spazio{
+    width: 33%;
+  }
+  .Ric{
+    font-size: 0.8em;
+  }
+  #selezione{
+    margin-left: 1.8%;
+    width: 74%;
+  }
+  #prodotti{
+    width: 24%;
+    margin-right: 1.8%;
+    padding: 0 15px;
+  }
+  #nBici{
+    width: 98.2%;
+    text-align: right;
+    padding: 3px 0;
+    font-style: italic;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 100%;
+    vertical-align:middle;
+  }
+  .fine{
+    cursor: pointer;
+    color: #333232;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0;
+    padding: 0 30px 5px 0;
+    line-height: 1.5;
+  }
+  .fine:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+  .email{
+    border: 1px solid #ccc;
+    color: #000;
+    line-height: 1.2;
+    padding: 10px 18px;
+  }
+  .eButton{
+    line-height: 1.2;
+    padding: 10px 18px;
+    color: #fff;
+    border: none;
+    background-color: #3a3a3a;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    white-space: normal;
+  }
+  .footer{
+    background-color: #f6f6f6;
+  }
+  #bici{
+    margin-bottom: 5%;
+  }
+  h2{
+    margin-bottom: 25px;
+    color: #333232;
+    font-size: 0.95em;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  .hr{
+    border-bottom: 1px solid #dddddd;;
+    margin: 45px 0 20px;
+    color: transparent;
+    width: 100%;
+  }
+  .divValuta{
+    width: 50%;
+    padding-left: 0.625%;
+  }
+  .valuta{
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    appearance: none;    
+    background-image: url(//cdn.shopify.com/s/files/1/0509/6095/7594/t/1/assets/ico-select.svg?v=29003672709104678581604787982);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    line-height: 1.2;
+    text-indent: 0.01px;
+    text-overflow: "";
+    cursor: pointer;
+    padding: 8px 28px 8px 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .copyright{
+    text-align: right;
+    font-size: 12px;
+  }
